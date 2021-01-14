@@ -1,0 +1,118 @@
+.main,.nav,.listinfo{
+    width: 1200px;
+    margin: 0 auto;
+}
+.nav .list {
+    border: 1px solid #e5e5e5;
+    padding: 0 20px;
+    margin: 40px 0;
+  }
+.filterinfo li {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    padding: 10px 0;
+    box-sizing: border-box;
+  }
+  
+  .filterinfo li > .left {
+    min-width: 35px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .filterinfo li > .right {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    font-size: 14px;
+    margin-left: 40px;
+
+  }
+  
+  .filterinfo li > .right > span {
+    font-size: 14px;
+    padding: 3px 9px;
+    margin-right: 12px;
+    cursor: pointer;
+  }
+  
+  .filterinfo li > .right > span.active,
+  .filterinfo li > .right > span:hover {
+    background-color: #f34d41;
+    border-radius: 20px;
+    color: #fff;
+  }
+  .main h2{
+      font-size: 13px;
+      color: #999999;
+      display: flex;
+      justify-content: space-between;
+  }
+  .main h2 p{
+    font-size: 18px;
+    color: #333;
+    border-left: 4px solid #f03d37;
+    padding-left: 6px;
+    line-height: 18px;
+    margin: 0;
+    position: relative;
+  }
+  .main >h2 >span >img{
+    padding-right: 10px;
+  }
+  .main .main_list{
+    padding: 20px 0;
+    border-bottom: 1px dashed #e5e5e5;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  .main .main_list .main_l{
+      width: 300px;
+  }
+  .main .main_list .main_l h3{
+      margin-bottom: 10px;
+      line-height: 18px;
+      font-weight: 400;
+  }
+  .main .main_list .main_l p{
+    font-size: 14px;
+    line-height: 14px;
+    color: #999;
+    margin-bottom: 10px;
+  }
+  .main .main_list .main_l span {
+    display: inline-block;
+    border: .7px solid #509fc9;
+    border-radius: 3px;
+    padding: 0 2px;
+    margin-right: 8px;
+    font-size: 12px;
+    color:#509fc9 ;
+  }
+  .main .main_list .main_r .buy{
+    width: 80px;
+    height: 30px;
+    color: #fff;
+    background-color: #f03d37;
+    font-size: 14px;
+    line-height: 30px;
+    border-radius: 100px;
+    text-align: center;
+    margin: 0 20px 0 36px;
+  }
+  .main .main_list .main_c{
+    flex: 1;
+    text-align: right;
+    font-size: 12px;
+    color: #999999;
+  }
+  .main .main_list .main_c span{
+    color: #f03d37;
+    font-size: 16px;
+  } 

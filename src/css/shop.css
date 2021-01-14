@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.main{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn{
+    
+    width: 1200px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px;
+    font-family: Microsoft YaHei,Helvetica,Arial,sans-serif;
+}
+.btn-a{
+    border: 1px solid #f03d37;
+    padding: 10px 15px;
+    border-radius: 22.5px;
+}
+.btn-a a{
+    font-size: 15px;
+    color: #f03d37;
+}
+.main dl{
+    width: 350px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    text-align: center;
+    margin: 0 5px 30px;
+}
+.main dt {
+width: 350px;
+height: 285px;
+}
+.main dt img{
+    height: 100%;
+}
+.main dd h2{
+    color: #333;
+}
+.main dd strong{
+    color: red;
+    font-size: 20px;
+}
+.main dd span{
+    color: #999;
+    font-size: 20px;
+    text-decoration: line-through;
+}

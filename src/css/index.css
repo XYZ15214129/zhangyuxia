@@ -1,0 +1,225 @@
+.icon{
+    width: 30px;
+    height: 30px;
+}
+
+/* banner */
+.banner{
+    width: 1200px;
+    height: 320px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.banner > .img{
+    width: 200%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+.banner > .img > li{
+    list-style: none;
+}
+
+.banner .img>li>img{
+    width: 1200px;
+    height: 320px;
+}
+.banner > .point{
+    width: 120px;
+    height: 20px;
+    border-radius: 10px;
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.banner > .point >li{
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+}
+.banner > .point >li.active{
+    background-color: #ccc;
+}
+.banner > .leftRight{
+    width: 100%;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.banner > .leftRight> div{
+    width: 56px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+
+
+
+/* main */
+.main{
+    width: 1200px;
+    margin: 0 auto ;
+    padding-top: 62px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.main_left{
+    width: 775px;
+    overflow: hidden;
+}
+.main_left .movie{
+    width: 775px;
+    box-sizing: border-box;
+    padding: 0 18px;
+}
+.main_left> .movie> .panel-header {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;  
+    font-size: 14px;
+    color: #ef4238;
+}
+h3{
+    font-size: 26px;
+    font-weight: normal;
+}
+.movie_list{
+    margin: 20px 0;
+    max-height: 1100px;
+    overflow: hidden;
+}
+.main_left .movie_list ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.movie_list ul>li{
+    width: 160px;
+    height: 258px;
+    margin: 0 5px 20px;
+}
+.movie_list ul>li img{
+    width: 100%;
+    height: 220px;
+}
+.movie_list ul>li>div{
+    width: 160px;
+    height: 220px;
+    position: relative;
+}
+.movie_list ul>li>div>p{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+    margin: 3px 10px 5px ;
+}
+.movie_list ul>li>div>p>span{
+    padding-left: 20px;
+    color:#ffb400 ;
+}
+.movie_list ul>li>a{
+    display: block;
+    width: 160px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 14px;
+    text-align: center;
+    color:#ef4238 ;
+}
+.movie_list ul .main_info{
+    width: 350px;
+}
+.movie_list ul .main_info>div>img{
+    width: 350px;
+}
+.main_left .movie .panel-header h3>i{
+    font-size: 14px;
+    color: #000;
+    margin-left: 10px;
+    font-style: normal;
+}
+
+
+.main_right{
+    width: 360px;
+    overflow: hidden;
+    min-height: 200px;
+}
+.main_right .movie{
+    width: 360px;
+
+}
+.main_right .movie .movie_list ol{
+    width: 360px;
+}
+.main_right .movie .movie_list ol>li{
+    width: 360px;
+    height: 35px;
+    line-height: 35px;
+    padding: 10px 0;
+    display: flex;
+}
+.main_right .movie .movie_list ol>li:nth-child(1){
+    padding:  0;
+    height: 78px;
+}
+.main_right .movie .movie_list ol>li>div{
+    font-size: 18px;
+    height: 78px;
+    box-sizing: border-box;
+    padding: 13px 10px;
+}
+.main_right .movie .movie_list ol>li>div>span{
+    color: #ef4238;
+    font-size: 14px;
+}
+.main_right .movie .movie_list ol>li>img{
+    width: 120px;
+    height: 78px;
+}
+.main_right .movie .movie_list ol>li>i{
+    font-size: 18px;
+}
+.main_right .movie .movie_list ol>li>p{
+    width: 100%;
+}
+.main_right .movie .movie_list ol>li>p>span{
+    color: #ef4238;
+    font-size: 14px;
+    float: right;
+}
+.main_right> .movie> .panel-header {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;  
+    font-size: 14px;
+    color: #ef4238;
+}

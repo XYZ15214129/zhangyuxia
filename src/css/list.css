@@ -1,0 +1,102 @@
+
+/* nav */
+.nav,.listinfo{
+    width: 1200px;
+    margin: 0 auto;
+}
+.nav .list {
+    border: 1px solid #e5e5e5;
+    padding: 0 20px;
+    margin: 40px 0;
+  }
+.filterinfo li {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    padding: 10px 0;
+    box-sizing: border-box;
+  }
+  
+  .filterinfo li > .left {
+    width: 35px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .filterinfo li > .right {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    font-size: 14px;
+    margin-left: 40px;
+
+  }
+  
+  .filterinfo li > .right > span {
+    font-size: 14px;
+    padding: 3px 9px;
+    margin-right: 12px;
+    cursor: pointer;
+  }
+  
+  .filterinfo li > .right > span.active,
+  .filterinfo li > .right > span:hover {
+    background-color: #f34d41;
+    border-radius: 20px;
+    color: #fff;
+  }
+  .listinfo .sort{
+    display: flex;
+  }
+  .listinfo .sort >span{
+    display: block;
+    width: 93px;
+    height: 21px;
+    margin-right: 50px;
+    font-size: 14px;
+  }
+  .listinfo .sort >span.active{
+    background-color: #f34d41;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+  }
+  .listinfo .sort >span>input{
+    margin-right: 5px;
+  }
+  .listinfo .movie{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }
+  .listinfo .movie_list{
+    width: 160px;
+    margin: 30px 0 0 30px;
+  }
+  .listinfo .movie_list img{
+    width: 160px;
+    height: 220px;
+  }
+  .listinfo .movie_list p{
+    height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-top: 10px;
+    color: #333;
+    text-align: center;
+    cursor: pointer;
+  }
+  .listinfo .movie_list span{
+    display: block;
+    margin-top: 10px;
+    height: 32px;
+    text-align: center;
+    color: #ffb400;
+    font-size: 24px;
+  }

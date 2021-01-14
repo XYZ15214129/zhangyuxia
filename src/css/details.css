@@ -1,0 +1,141 @@
+.content {
+   width: 1200px;
+   margin: 0 auto ;
+   box-sizing: border-box;
+   padding: 60px 0 60px 100px;
+  }
+  nav{
+    padding: 35px 0;
+    border-bottom: 1px solid #dedede;
+    font-size: 18px;
+    color: #999;
+  }
+  nav .index{color: #333;}
+  .goodsDetail {
+    margin: 40px 0 94px;
+    display: flex;
+  }
+  
+  .goodsDetail > .enlargeBox {
+    width: 500px;
+    position: relative;
+    margin-right:40px;
+  }
+  .goodsDetail > .enlargeBox   .show {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    border-bottom: 1px solid #dedede;
+    
+  }
+  .show img{
+    display: block;
+    width: 500px;
+    height: 500px;  
+  }
+  
+  .goodsDetail > .enlargeBox .list {
+    box-sizing: border-box;
+    padding:20px 0  0 50px;
+  }
+  .goodsDetail > .enlargeBox .list > p{
+    width: 76px;
+    height: 76px;
+  }
+ 
+  .goodsDetail > .enlargeBox .list > p> img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+
+  }
+  .goodsDetail > .enlargeBox .list > p.active{
+    border: 2px solid #f03d37;
+  }
+  
+  .mask{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    opacity: 0.5;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    display: none;
+    /* 表示该元素永远不作为目标事件使用 */
+    pointer-events: none;
+}
+
+.goodsDetail > .enlargeBox .enlarge{
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 110%;
+  top: 0;
+  /* background-image: url(./../images/1.big.jpg); */
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 800px 800px;
+  border: 1px solid #ccc;
+  display: none;
+}
+  .goodsDetail > .goodsInfo {
+    flex: 1;
+    display: flex; 
+    flex-direction: column; 
+    box-sizing: border-box;
+    padding: 50px 0;
+
+  }
+  .goodsDetail > .goodsInfo > h3 {
+    font-size: 32px;
+    padding: 20px 0;
+    font-weight: 400;
+  }
+  
+  .goodsDetail > .goodsInfo > .price {
+    font-size: 20px;
+    height: 100px;
+    background-color: #f5f5f5;
+    padding: 0 0 0 25px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+  }
+  .goodsDetail > .goodsInfo > .price .text-danger{
+    font-size: 48px;
+    color: #f03d37;
+    margin-right: 20px;
+  }
+  .goodsDetail > .goodsInfo > .price .dz{
+    font-size: 28px;
+    color: #999;
+    text-decoration: line-through;
+  }
+  
+  .goodsDetail > .goodsInfo > .purchase-btn{
+    width: 200px;
+    height: 60px;
+    background-color: #f03d37;
+    border-radius: 30px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+  }
+  .goodsDetail > .goodsInfo > .price > span {
+    font-size: 30px;
+  }
+  .goodsDetail > .goodsInfo > .price1,.price2{
+    margin-bottom: 30px;
+    font-size: 12px;
+    color: #999999;
+  }
+  .goodsDetail > .goodsInfo > .price1,.price2 > span{
+    padding-right: 20px;
+  }
+  .goodsDetail > .goodsInfo > .price2{
+    color: #faaf00;
+  }

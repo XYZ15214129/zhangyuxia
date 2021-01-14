@@ -1,0 +1,262 @@
+/* header */
+.headerwarp{
+    width: 100%;
+    border-bottom: 1px solid #d8d8d8;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+header{
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+}
+.header_l{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_l>a{
+    font-size:18px;
+    font-weight: 600;
+    color: #ec454a;
+    margin-left: 8px;
+    text-decoration: none;
+}
+.header_c{
+    flex: 1;
+    display: flex;
+    margin: 0 20px;
+}
+.header_c .icon{
+    width:15px;
+    height:10px;
+}
+.header_c .right{
+    display: flex;
+}
+.header_c .right>ul{
+    display: flex;
+    margin:0 20px;
+    font-size: 18px;
+}
+.header_c .right>ul>li{
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}
+.header_c .right>ul>li a{
+    display: block;
+    color: #000;
+    width: 100%;
+    height: 100%;
+}
+.header_c .right>ul>li.active{
+    background-color:#ec454a ;}
+.header_c .right ul>li.active>a{
+    color: #fff;
+
+}
+.header_c .right>div{
+    width: 130px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 14px;
+    box-sizing: border-box;
+    position: relative;
+}
+.header_c .right>div ol{
+    display: none;
+    width: 130px;
+    height: 145px;
+    position: absolute;
+    left: 0;
+    top: 80px;
+    text-align: center;
+    background-color: #fff;
+}
+.header_c .right>div:hover ol{
+    display: block;
+}
+
+
+.header_c .right>div >.sj{
+    width: 25px;
+    height: 24px;
+}
+.header_r{
+    display: flex;
+    justify-content: space-between;
+    width: 310px;
+    height: 80px;
+    line-height: 80px;
+}
+.header_r div:nth-child(1){
+    position: relative;
+}
+.header_r input{
+    box-sizing: border-box;
+    width: 220px;
+    height: 40px;
+    padding-left: 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    background-color: #faf8fa;
+    color: #333;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    outline: none;
+}
+.header_r .search{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ec454a;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_r .suggest_list {
+    width: 220px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+    top:-20px;
+    z-index: 2;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border-top: none;
+    padding: 20px;
+    background-color: #fff;
+    display: none;
+  }
+
+  .header_r .suggest_list > li {
+    height: 20px;
+    line-height: 20px;
+    list-style: none;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  .header_r .suggest_list > li>span{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+
+.header_r .login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.header_r .login .icon{
+    width:15px;
+    height:10px;
+}
+.header_r .login img{
+    width: 40px;
+    height: 40px;
+}
+.header_r .login div span.active{
+    display: block;
+}
+.header_r .login div{
+    height: 110px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 1px solid #ccc;
+    display: none;
+}
+.header_r .login div p{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 55px;
+}
+.header_r .login div span{
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #333;
+    text-align: center;
+}
+
+.header_r>.login:hover .user-menu {
+    display: block;
+    background-color: #fff;
+}
+
+/* footer */
+.footer {
+    background-color: #262426;
+    padding: 56px 0;
+    margin: 0 auto;
+    min-width: 1200px;
+    margin-top: 82px;
+    
+ }
+.footer p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+    height: 22px;
+}
+.footer .friendly-links a {
+    color: #ef4238;
+}
+.friendly-links span {
+    display: inline-block;
+    border-left: 1px solid #ccc;
+    margin: 0 7px;
+    height: 12px;
+    position: relative;
+    top: 1px;
+}
+.footer p, .footer p a {
+    color: #ccc;
+}
+.footer .credentials a {
+    color: #ccc!important;  
+}
+.friendly-links span {
+    display: inline-block;
+    border-left: 1px solid #ccc;
+    margin: 0 7px;
+    height: 12px;
+    position: relative;
+    top: 1px;
+}
+.certificate {
+    margin-top: 20px!important;
+    /* margin: 0;
+    padding: 0; */
+    text-align: center;
+}
+.certificate a{
+    padding-right: 12px;
+}
+.footer p a:hover{
+    text-decoration: underline;
+}
